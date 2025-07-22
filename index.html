@@ -9,12 +9,36 @@
     <div id="column1"></div>
     <div id="column2"></div>
     <div id="column3"></div>
-    <script></script>
+    <div id="column4"></div>
+    <p id="prep">Prep</p>
+    <p id="address1">5141</p>
+    <p id="address2">1605</p>
+    <p id="name1"></p>
+    <p id="date">Date:<input type ="date" id="datelabel"></p>
+    <p id="name1">Name:</p>
+    <p id="name2">Name:</p>
+    <p id="name3">Name:</p>
+    <input type="text" id="nameText1">
+    <input type="text" id="nameText2">
+    <input type="text" id="nameText3">
+    <select id="daySelect">
+        <option>Sunday</option>
+        <option>Monday</option>
+        <option>Tuesday</option>
+        <option>Wednsday</option>
+        <option>Thursday</option>
+        <option>Friday</option>
+        <option>Saturday</option>
+    </select>
+    <script>
+        //scroll down, vip and cremations
+    </script>
     <style>
         html 
         {
+            font-family: Arial, sans-serif;
             position: absolute;
-            height: 710px;
+            height: 2000px;
             width: 400px;
             text-align: center;
             border: 5px solid black;
@@ -27,7 +51,7 @@
             position: absolute;
             width: 400px;
             height: 5px;
-            bottom: 100px;
+            top: 610px;
             left:0px;
             background-color: black;
         }
@@ -36,8 +60,8 @@
         {
             position: absolute;
             width: 5px;
-            height: 610px;
-            bottom: 100px;
+            height: 570px;
+            top: 40px;
             left:133px;
             background-color: black;
         }
@@ -46,11 +70,108 @@
         {
             position: absolute;
             width: 5px;
-            height: 610px;
-            bottom: 100px;
+            height: 570px;
+            top: 40px;
             left:266px;
             background-color: black;
         }
+
+        #column4
+        {
+            position: absolute;
+            width: 400px;
+            height: 5px;
+            top: 130px;
+            left: 0px;
+            background-color: black;
+        }
+
+        #prep
+        {
+            position: absolute;
+            top:90px;
+            left: 35px;
+        }
+
+        #address1
+        {
+            position: absolute;
+            top:90px;
+            left: 185px;
+        }
+
+        #address2
+        {
+            position: absolute;
+            top: 90px;
+            left: 310px;
+        }
+
+        #date
+        {
+            position: absolute;
+            top: 0px;
+        }
+
+        #day
+        {
+            position: absolute;
+            left: 180px;
+            top: 0px;
+        }
+
+        #daySelect
+        {
+            position: absolute;
+            left: 220px;
+            top: 15px;
+        }
+
+        #name1
+        {
+            position: absolute;
+            top: 40px;
+        }
+
+        #name2
+        {
+            position: absolute;
+            top: 40px;
+            left: 150px;
+        }
+
+        #name3
+        {
+            position: absolute;
+            top: 40px;
+            left: 280px;
+        }
+
+
+        #nameText1
+        {
+            position: absolute;
+            top: 80px;
+            left: 2px;
+            width: 120px;
+        }
+
+        #nameText2
+        {
+            position: absolute;
+            top: 80px;
+            left: 140px;
+            width: 118px;
+        }
+
+        #nameText3
+        {
+            position: absolute;
+            top: 80px;
+            left: 272px;
+            width: 120px;
+        }
+
     </style>
 </body>
 </html>
