@@ -7,6 +7,8 @@
 </head>
 <body>
     <div id="column1"></div>
+    <div id="column2"></div>
+    <div id="column3"></div>
     <script></script>
     <style>
         html 
@@ -17,16 +19,36 @@
             text-align: center;
             border: 10px solid black;
             background-color: white;
-            left:10px;
+            left:0px;
         }
 
         #column1
         {
             position: absolute;
-            width: 20px;
-            height: 20px;
-            top: 20px;
-            left: 20px;
+            width: 400px;
+            height: 5px;
+            bottom: 100px;
+            left:0px;
+            background-color: black;
+        }
+
+        #column2
+        {
+            position: absolute;
+            width: 5px;
+            height: 610px;
+            bottom: 100px;
+            left:133px;
+            background-color: black;
+        }
+
+        #column3
+        {
+            position: absolute;
+            width: 5px;
+            height: 610px;
+            bottom: 100px;
+            left:266px;
             background-color: black;
         }
     </style>
